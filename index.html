@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estate flow</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<header class="navbar">
+    <div class="logo">
+        <img src="logo.png" alt="estate-flow" class="logoimg" height="70" width="70">
+        <h1 class="main-heading">EstateFlow-Property Lead Management</h1>
+    </div>
+    <h2 class="tittlep">EstateFlow-Property Lead Management</h2>
+    <form class="searchingsection">
+        <input type="text" placeholder="searchleeds">
+        <button type="submit">Search</button>
+    </form>
+</header>   
+
+<div class="pageshow">
+    <nav class="sidebar">
+        <p class="menutext">Menu</p>
+        <ul class="navigation-links">
+            <li><a href="index.html" class="active">Dashboard</a></li>
+            <li><a href="allleads.html">All leads</a></li>
+            <li><a href="sales.html">Sales pipeline</a></li>
+            <li><a href="followup.html">Follow-up schedule</a></li>
+        </ul>
+    </nav>
+
+    <main class="content">
+        <div class="dashboard">
+            <div class="side">
+                <div class="penta">Total active leads</div>
+                <div class="sideh-number" id="visit1">0</div>
+            </div>
+            <div class="side">
+                <div class="penta">Site visited schedule</div>
+                <div class="sideh-number" id="visit2">0</div>
+            </div>
+            <div class="side">
+                <div class="penta">In negotiation</div>
+                <div class="sideh-number" id="visit3">0</div>
+            </div>
+            <div class="side">
+                <div class="penta">Closed won deals</div>
+                <div class="sideh-number" id="visit4">0</div>
+            </div>
+        </div>
+
+        <h1>Add new property lead</h1>
+        <label>Client Name:<input type="text" name="clientName"></label><br>
+        <label>Client-Type:<input type="radio" name="ClientType" value="buyer" checked>Buyer<input type="radio" name="clienttype" value="seller">Seller </label><br>
+        <label>Property-Interest:<select><option>Apartment</option><option>House</option><option>Condo</option></select></label><br>
+        <label>Budget:<input type="number" name="budget"></label><br>
+        <label>Lead-Stage:<select><option>New</option><option>Contacted</option><option>Qualified</option></select></label><br>
+        <label>Priority:<select><option>High</option><option>Medium</option><option>Low</option></select></label><br>
+        <label>Next-follow-up Date:<input type="date" name="follow-up-date"></label>
+        <input type="submit" value="Sumbit leed">
+        </main>
+</div>
+</body>
+</html>

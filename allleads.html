@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All leads - Estate flow</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="estate-flow" class="logoimg" height="70" width="70">
+            <h1 class="main-heading">EstateFlow-Property Lead Management</h1>
+        </div>
+        <h2 class="tittlep">EstateFlow-Property Lead Management</h2>
+        <form class="searchingsection">
+            <input type="text" placeholder="searchleeds">
+            <button type="submit">Search</button>
+        </form>
+    </header>   
+    
+    <div class="pageshow">
+        <nav class="sidebar">
+            <p class="menutext">Menu</p>
+            <ul class="navigation-links">
+                <li><a href="index.html" class="active">Dashboard</a></li>
+                <li><a href="allleads.html">All leads</a></li>
+                <li><a href="sales.html">Sales pipeline</a></li>
+                <li><a href="followup.html">Follow-up schedule</a></li>
+            </ul>
+        </nav>
+    <main class="content">
+        <h1> All registered property leads</h1>
+        <table border="1">
+            <tr>
+                <th>Client-Name</th>
+                <th>Type</th>
+                <th>Interest</th>
+                <th>Budget</th>
+                <th>Stage</th>
+                <th>Priority</th>
+                <th>Follow-up Date</th>
+                <th>Phone number</th>
+                <th>Stage</th>
+            </tr>
+            <tr>
+                <td>Ms.Amith varma</td>
+                <td>Buyer</td>
+                <td>Apartment</td>
+                <td>3cr</td>
+                <td>New</td>
+                <td>High</td>
+                <td>4-11-27</td>
+                <td>*******895</td>
+                <td><select class='stage'>
+                    <option value="new"selected>New</option>
+                    <option value="site-visit">Site Visisted Schedule</option>
+                    <option value="negotiation">In negotiation</option>
+                    <option value="closed">Closed Won</option>
+                </select>
+                    <button type="button" class="savebtn">Save</button>
+            </td>
+            </tr>
+            <tr>
+                <td>Aditya</td>
+                <td>Seller</td>
+                <td>House</td>
+                <td>1.25cr</td>
+                <td>New</td>
+                <td>Medium</td>
+                <td>10-11-27</td>
+                <td>*******265</td>
+                <td><select class='stage'>
+                    <option value="new"selected>New</option>
+                    <option value="site-visit">Site Visisted Schedule</option>
+                    <option value="negotiation">In negotiation</option>
+                    <option value="closed">Closed Won</option>
+                </select><button type="button" class="savebtn">Save</button></td>
+            </tr>
+            <tr>
+                <td>Mokshagan</td>
+                <td>buyer</td>
+                <td>Apartment</td>
+                <td>2cr</td>
+                <td>New</td>
+                <td>Low</td>
+                <td>16-03-27</td>
+                <td>*******746</td>
+                <td><select class='stage'>
+                    <option value="new"selected>New</option>
+                    <option value="site-visit">Site Visisted Schedule</option>
+                    <option value="negotiation">In negotiation</option>
+                    <option value="closed">Closed Won</option>
+                </select><button type="button" class="savebtn">Save</button></td>
+            </tr>
+            <tr>
+                <td>Sai praveen</td>
+                <td>Seller</td>
+                <td>Condo</td>
+                <td>3.5 cr</td>
+                <td>New</td>
+                <td>High</td>
+                <td>12-08-27</td>
+                <td>*******123</td>
+                <td><select class='stage'>
+                    <option value="new"selected>New</option>
+                    <option value="site-visit">Site Visisted Schedule</option>
+                    <option value="negotiation">In negotiation</option>
+                    <option value="closed">Closed Won</option>
+                </select><button type="button" class="savebtn">Save</button></td>
+            </tr>
+            <tr>
+                <td>Datta sai</td>
+                <td>buyer</td>
+                <td>Condo</td>
+                <td>2.7cr</td>
+                <td>New</td>
+                <td>High</td>
+                <td>12-09-28</td>
+                <td>*******121</td>
+                <td><select class='stage'>
+                    <option value="new"selected>New</option>
+                    <option value="site-visit">Site Visisted Schedule</option>
+                    <option value="negotiation">In negotiation</option>
+                    <option value="closed">Closed Won</option>
+                </select><button type="button" class="savebtn">Save</button></td>
+            </tr>
+            <tr>
+                <td>Shiva Sai</td>
+                <td>buyer</td>
+                <td>House</td>
+                <td>4cr</td>
+                <td>New</td>
+                <td>V.High</td>
+                <td>14-06-28</td>
+                <td>*******437</td>
+                <td><select class='stage'>
+                    <option value="new"selected>New</option>
+                    <option value="site-visit">Site Visisted Schedule</option>
+                    <option value="negotiation">In negotiation</option>
+                    <option value="closed">Closed Won</option>
+                </select><button type="button" class="savebtn">Save</button></td>
+            </tr>
+            <tr>
+                <td>Bala Sai</td>
+                <td>Seller</td>
+                <td>House</td>
+                <td>3.5 cr</td>
+                <td>New</td>
+                <td>High</td>
+                <td>14-08-28</td>
+                <td>******894</td>
+                <td><select class='stage'>
+                    <option value="new"selected>New</option>
+                    <option value="site-visit">Site Visisted Schedule</option>
+                    <option value="negotiation">In negotiation</option>
+                    <option value="closed">Closed Won</option>
+                </select><button type="button" class="savebtn">Save</button></td>
+            </tr>
+        </table>
+    </main> 
+            
+</body>
+</html>
