@@ -1,0 +1,14 @@
+# Python / build outputs
+__pycache__/
+*.py[cod]
+*$py.class
+*.py
+
+# Documentation & Submission office files
+*.pdf
+*.xlsx
+*.wav
+*.mp3
+
+# Asset working directory
+assets/
